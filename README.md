@@ -6,8 +6,10 @@
 
 ## Install
 
-install the dependencies
-copy scnsht to somewhere in your `$PATH`
+* install the dependencies
+* copy scnsht to somewhere in your `$PATH`
 
-License: MIT
-CoC: Contributor Covenant
+## Terms
+
+* License: MIT
+* CoC: Contributor Covenant
