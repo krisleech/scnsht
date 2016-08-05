@@ -3,5 +3,5 @@
 set -e
 
 scrot -s 'screen.png' -e 'mv $f ~/Dropbox/Public/screenshots/'
-URL=`dropbox puburl Dropbox/Public/screenshots/screen.png`
+URL=`dropbox puburl ~/Dropbox/Public/screenshots/screen.png`
 echo $URL | xclip -selection clipboard
