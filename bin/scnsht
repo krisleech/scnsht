@@ -3,7 +3,6 @@
 set -e
 
 FILENAME=$RANDOM.png
-echo $FILENAME
 scrot -s $FILENAME -e 'mv $f ~/Dropbox/Public/screenshots/'
 URL=`dropbox puburl ~/Dropbox/Public/screenshots/$FILENAME`
 echo $URL | xclip -selection clipboard
